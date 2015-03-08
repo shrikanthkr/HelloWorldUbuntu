@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
      height = rec.height();
      width = rec.width();
     viewer.resize(width,height);
-    viewer.loadFile(QLatin1String("html/index.html"));
+    viewer.loadFile(QLatin1String("html/app/app/dist/index.html"));
 
     return app.exec();
 }
